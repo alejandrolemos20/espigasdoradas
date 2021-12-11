@@ -1,0 +1,396 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    background: #E8E4B3;
+    }
+
+body{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+    grid-template-areas: "header" "main" "footer";
+}
+
+header ul{ /* para mover el menu a la derecha*/
+    /*
+    top: 0;
+    right: 5%; 
+    flex-wrap: wrap;
+    display: flex;
+    list-style: none;
+    */
+    margin-left: 327px;
+}
+header ul li{
+    margin: 0px 10px ;
+    color: transparent;
+    transition: color .6s;
+}
+header ul li:hover{
+    background-image: linear-gradient(#080800,hsl(11deg 10% 63%));
+    opacity: 1;
+    transition: opacity .4s;
+}
+header ul a{ /* links espaciado */
+    display: block;
+    padding: 20px 8px;
+    text-decoration: none; /* elimina hipervinculo */
+    border-bottom: 2px solid black;
+    font-size: 1.4rem;
+    color: gold !important; /* Sirve para que esta propiedad se aplique sí o sí */ 
+    
+}
+
+
+.header{
+    
+    /*background: url("https://i.postimg.cc/tR1Yyvq6/6016398-ai.png") no-repeat center top;
+    display: flex;
+    background-size: cover;
+    background-position: center center;
+    padding: 20px 15px 10px 0px;
+    justify-content: space-between;*/
+    font-family: 'Roboto', sans-serif;
+    grid-area: header;
+    /*align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    */
+
+}
+.headerlogo {
+    max-width: 100%;
+    width: 150px;
+    height: 150px;
+
+}
+
+main{
+    grid-area: main;
+}
+
+footer{
+    border-top: 1px solid #d9d9d9;
+    text-align: center;
+    padding: 3px;
+    background-color: bisque;
+    color: black;
+    /* display: grid; */
+    /* grid-template-columns: auto auto auto auto; */
+    /* grid-template-areas: "menu about texto ubicacion "; */
+    /* grid-column-gap: 60px; */
+    grid-area: footer;
+    
+    
+}
+
+footer ul{
+    list-style: none;
+    padding: 10px;
+    flex-direction: row;
+}
+
+.videotexto_contenedor{
+    
+    flex-basis: 50%;
+    background-color: #F8F7E7;
+    /*display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "video cuerpo";
+    */
+    height: 100vh;
+    justify-items: center;
+    align-items: center;
+    padding-right: 36px;
+    border-bottom: 1.5px solid black;
+}
+.videotexto_cuerpo{
+    text-align: center;
+    
+    font-family: 'Roboto', sans-serif;
+    grid-area: cuerpo;
+}
+.videotexto_video{
+    grid-area: video;
+}
+.cuerpo p{
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+}
+.tabs{
+    /*
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "tabs imagen";
+    justify-items: center;
+    align-items: center;*/
+    background-color: #E8E4B3;
+    border-bottom: 2px solid black;
+}
+.contenedor-tabs{
+    grid-area: tabs;
+}
+
+.contendor-tabs-interno{
+    padding: 9px 459px 137px 263px;
+    margin: 36px -232px -113px -164px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+}
+.tabsimagen{
+    width: 500px;
+    height: 500px;
+    padding: 3px 1px 32px 9px;
+    margin: 106px -145px -1px -79px;
+    transition: all 1s ease-in-out 0s;
+    -webkit-transition: all 1s ease-in-out 0s;
+    -moz-transition: all 1s ease-in-out 0s;
+    -o-transition: all 1s ease-in-out 0s;
+    -ms-transition: all 1s ease-in-out 0s;
+}
+.tabsimagen:hover {
+    transform:rotate(-10deg) scale(1.2);
+    -webkit-transform:rotate(-10deg) scale(1.2);
+    -moz-transform:rotate(-10deg) scale(1.2);
+    -o-transform:rotate(-10deg) scale(1.2);
+    -ms-transform:rotate(-10deg) scale(1.2);
+}
+.contenedorimagentabs{
+    grid-area: imagen;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.Hero_titulo{
+    font-size: 3rem;
+    font-weight: 400;
+
+}
+.boton{
+    font-size: 100%;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    border-radius: 20px;
+    background: burlywood;
+    border-style: solid;
+    display: inline-block;
+    width: 150px;
+    text-decoration: none;
+    cursor: pointer; /* Para poner el cursor al posarse en el momento*/
+    transition: background 0.5s
+}
+.boton:hover{
+    background:#dfc098;
+    -webkit-box-shadow: 0px 20px 36px -11px rgba(0,0,0,.3);
+    box-shadow: 0px 20px 36px -11px rgba(0,0,0,.3);
+
+}
+.bcolor {
+    background-color: orange;
+}
+.contenedor-hero-section{
+    text-align: center;
+    display: grid;
+    margin-top: 20px;
+    position: relative;
+    left: 30px;
+    width: 100%;
+    justify-items: center;
+
+}
+.hero-section{ 
+    display: flex;
+    background-color: lavenderblush;
+    height: 63vh;
+    padding: 1rem;
+    place-items: center;
+    border-bottom: 1.6px solid black;
+    background: url("../Assets/gradient-golden-luxury-background_23-2149025598.jpeg") no-repeat;
+    background-size: cover;
+}
+.hero-section h1, button{
+    font-family:'Courier New', Courier, monospace
+}
+.hero-image{
+    width: 200px;
+    padding: 1rem;
+    margin-left: 460px;
+    
+} /* para que la imagen este en un contenedor se usan esos hero img */
+.hero__img{
+    width: 100%; }
+/* Formato para pages 
+.cajas { float: left; display: inline; margin-left: 10px; margin-right: 10px; }*/
+
+
+.container_Categoria{ position: relative; width: 960px; margin: 0 auto; padding: 0; 
+}
+.container_Categoria .cajas {
+    width: 300px;
+}
+/*.Producto{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    place-items: center;
+    height: 600px;
+} */
+.content {
+    padding-bottom: 360px;
+    background-color: khaki;
+    font-family: 'Roboto', sans-serif;  
+}
+/* Animacion hover overlay */
+.containerimagenes {
+    position: relative;
+    width: 50%;
+}  
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 400px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #d89e21;
+    }
+.mainsection{
+    background-color: #E8E4B3;
+}
+
+.cajas .containerimagenes:hover .overlay{
+        opacity: 1;
+    }
+.text {
+    color: #050000;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    }
+
+.texto1 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+/*.Producto .clear {/* BR *
+    height: 304px;
+}*/
+.clear{
+    height: 50px !important
+}
+.Titulo{
+    padding-top: 50px;
+    padding-left: 9px;
+
+}
+.ContactoSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+    background: url("https://image.freepik.com/free-vector/gradient-black-background-with-golden-textures_23-2149160014.jpg") no-repeat;
+    background-size: cover;
+}
+.ContactoSection form{
+    
+    background-color: whitesmoke;
+    margin: 130px 10px 10px 10px; 
+    padding: 10px 10px 10px 10px;
+}
+/* .FormularioImagen{
+    padding: 118px 446px 160px 285px;
+    margin: -26px -419px -142px -228px;
+
+}*/
+
+.menu{grid-area: menu}
+.aboutus{grid-area: about}
+.textocorto{grid-area: texto}
+.ubicacion{grid-area: ubicacion}
+
+/* media queries responsive */
+/* Estilos Moviles*/
+
+/*
+@media only screen and (max-width: 767px) {
+    .footer .header .main{
+        flex-wrap: wrap;
+    }
+    .header{
+        justify-content: center;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-areas: "logo"
+                            "nav";
+    }
+    .headerlogo {
+        grid-area: logo;
+        justify-self: center;
+        margin-left: 66px;
+    
+    }
+    header ul{ /* para mover el menu *
+        display: flex;
+        flex-direction: row;
+        padding: 4px 10px 14px 87px;
+        grid-area: nav;
+        
+    }
+    header ul a{ /* links espaciado *
+        display: block;
+        padding: 20px 8px;
+        font-size: 2rem;
+        
+    }
+    header ul li{
+        margin: 0px 10px ;
+    }
+    .main{
+        font-size: 1.3rem;
+        background-color: khaki;
+        
+    }
+    .content{
+        height: 230vh;
+        padding: 186px;
+    }
+    .Producto{
+        font-size: 1.4rem;
+    }
+    
+}
+*/
+/*--Desktop--*/
+/*
+@media only screen and (min-width: 768px) {
+    
+    .header{
+        justify-content: space-between;
+        align-items: center;
+    }
+    .tabsimagen{    width: 600px;
+        height: 600px;
+        padding: 17px 17px 23px -21px;
+        margin: 67px 0px 0px -143px;}
+    
+    
+}
+
+*/
