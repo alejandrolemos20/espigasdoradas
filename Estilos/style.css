@@ -22,7 +22,7 @@ header ul{ /* para mover el menu a la derecha*/
     display: flex;
     list-style: none;
     */
-    margin-left: 327px;
+    margin-left: 260px;
 }
 header ul li{
     margin: 0px 10px ;
@@ -68,7 +68,10 @@ header ul a{ /* links espaciado */
     height: 150px;
 
 }
-
+.social img{
+    width: 30px;
+    height: 26px;
+}
 main{
     grid-area: main;
 }
