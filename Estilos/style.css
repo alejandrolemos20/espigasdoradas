@@ -231,12 +231,12 @@ footer ul{
 /* Formato para pages 
 .cajas { float: left; display: inline; margin-left: 10px; margin-right: 10px; }*/
 
-
+/*
 .container_Categoria{ position: relative; width: 960px; margin: 0 auto; padding: 0; 
 }
 .container_Categoria .cajas {
     width: 300px;
-}
+}*/
 /*.Producto{
     display: grid;
     grid-template-columns: 2fr 2fr 2fr 2fr;
@@ -252,7 +252,7 @@ footer ul{
 /* Animacion hover overlay */
 .containerimagenes {
     position: relative;
-    width: 50%;
+    width: 100%;
 }  
 .overlay {
     position: absolute;
@@ -305,17 +305,15 @@ footer ul{
 
 }
 .ContactoSection{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    
     background-color: black;
-    background: url("https://image.freepik.com/free-vector/gradient-black-background-with-golden-textures_23-2149160014.jpg") no-repeat;
-    background-size: cover;
+    width: 100%;
+    padding-top: 8rem;
 }
 .ContactoSection form{
     
     background-color: whitesmoke;
-    margin: 130px 10px 10px 10px; 
-    padding: 10px 10px 10px 10px;
+    
 }
 /* .FormularioImagen{
     padding: 118px 446px 160px 285px;
