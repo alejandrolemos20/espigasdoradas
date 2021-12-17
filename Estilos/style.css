@@ -105,7 +105,7 @@ footer ul{
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "video cuerpo";
     */
-    height: 100vh;
+    
     justify-items: center;
     align-items: center;
     padding-right: 36px;
@@ -139,8 +139,8 @@ footer ul{
 }
 
 .contendor-tabs-interno{
-    padding: 9px 459px 137px 263px;
-    margin: 36px -232px -113px -164px;
+    /*padding: 9px 459px 137px 263px;
+    margin: 36px -232px -113px -164px;*/
     text-align: justify;
     font-family: 'Roboto', sans-serif;
 }
