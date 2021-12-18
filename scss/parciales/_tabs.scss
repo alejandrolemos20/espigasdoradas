@@ -1,0 +1,12 @@
+@import "./vars";
+.tabs{
+    background-color: $color-fondo;
+    border-bottom: 2px solid $color-separadores;
+    &_contenedor{
+    grid-area: tabs;
+    &-interno{
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    }
+}
+}

@@ -1,0 +1,19 @@
+@import "./vars";
+.videotexto_contenedor{
+    flex-basis: 50%;
+    background-color: #F8F7E7;
+    justify-items: center;
+    align-items: center;
+    padding-right: 36px;
+    border-top: 2px solid $color-separadores;
+    border-bottom: 2px solid $color-separadores;
+    &_cuerpo{
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    grid-area: cuerpo;
+    & h2{
+        text-align: center;
+    }
+    }
+
+}

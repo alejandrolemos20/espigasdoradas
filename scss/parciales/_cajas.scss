@@ -1,0 +1,65 @@
+.cajas{
+    &_texto1 {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 300;
+        margin-bottom: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+    &_boton{
+        font-size: 100%;
+        font-family:'Courier New', Courier, monospace;
+        font-weight: bold;
+        text-align: center;
+        justify-content: center;
+        color: black;
+        border-radius: 20px;
+        background: burlywood;
+        border-style: solid;
+        display: inline-block;
+        width: 140px;
+        text-decoration: none;
+        cursor: pointer; /* Para poner el cursor al posarse en el momento*/
+        transition: background 0.5s;
+        &:hover{
+        background:#dfc098;
+        -webkit-box-shadow: 0px 20px 36px -11px rgba(0,0,0,.3);
+        box-shadow: 0px 20px 36px -11px rgba(0,0,0,.3);
+        }
+    }
+    .containerimagenes {
+        position: relative;
+        width: 100%;
+        &_overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #d89e21;
+        }
+        &_text {
+        color: #050000;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+        }
+        /* Animacion hover overlay */
+        &:hover{ 
+            .containerimagenes_overlay{
+                opacity: 1;
+            }
+        }
+    }  
+
+}

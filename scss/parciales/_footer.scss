@@ -1,0 +1,15 @@
+@import "./vars";
+.footer{
+    border-top: 2px solid $color-separadores;
+    text-align: center;
+    padding: 3px;
+    background-color: bisque;
+    color: black;
+    grid-area: footer;
+    &_list{
+    list-style: none;
+    padding: 10px;
+    flex-direction: row;
+    }
+    
+}

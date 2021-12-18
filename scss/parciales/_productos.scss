@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.mainsection{
+    background-color: $color-fondo;
+    &_Titulo{
+    padding-top: 50px;
+    padding-left: 9px;
+    font-family: 'Roboto', sans-serif;
+
+    }
+}
+
+
