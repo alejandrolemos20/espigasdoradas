@@ -1,4 +1,4 @@
-/* MAPA */
+/* MAPA en contenedorimagenes, footer y videotexto */
 $misestilos: (
     colorproductos:#d89e21,
     centro:center,
@@ -6,7 +6,7 @@ $misestilos: (
 );
 /* MAPA */
 
-/* EXTEND */
+/* EXTEND en parcial _cajas y en _maincarrusel */
 
 .alineadocentro{
     text-align: center;
@@ -15,7 +15,7 @@ $misestilos: (
 }
 /* Extend */
 
-/* Mixin */
+/* Mixin en header */
 @mixin logos ($ancho,$alto){
     width: $ancho;
     height: $alto;
@@ -24,13 +24,13 @@ $misestilos: (
 /* Fin Mixin */
 
 
-/* Mixin */
+/* Mixin en parciales cajas */
 @mixin tamano ($alto,$ancho){
     height: $alto;
     width: $ancho;
     
 }
-/* Para Margenes*/
+/* Para Margenes en parciales cajas*/
 @mixin margenes ($izquierda, $derecha, $arriba, $abajo){
     left: $izquierda;
     right: $derecha;

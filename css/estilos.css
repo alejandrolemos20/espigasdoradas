@@ -1,9 +1,9 @@
 @charset "UTF-8";
 /* MAPA */
 /* MAPA */
+/* MAPA en contenedorimagenes, footer y videotexto */
 /* MAPA */
-/* MAPA */
-/* EXTEND */
+/* EXTEND en parcial _cajas y en _maincarrusel */
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 .alineadocentro, .mainboton, .cajas_boton {
@@ -11,25 +11,25 @@
   justify-content: center; }
 
 /* Extend */
-/* Mixin */
+/* Mixin en header */
 /* Fin Mixin */
-/* Mixin */
-/* Para Margenes*/
+/* Mixin en parciales cajas */
+/* Para Margenes en parciales cajas*/
 /* Fin Mixin */
 /* MAPA */
 /* MAPA */
+/* MAPA en contenedorimagenes, footer y videotexto */
 /* MAPA */
-/* MAPA */
-/* EXTEND */
+/* EXTEND en parcial _cajas y en _maincarrusel */
 .alineadocentro, .mainboton, .cajas_boton {
   text-align: center;
   justify-content: center; }
 
 /* Extend */
-/* Mixin */
+/* Mixin en header */
 /* Fin Mixin */
-/* Mixin */
-/* Para Margenes*/
+/* Mixin en parciales cajas */
+/* Para Margenes en parciales cajas*/
 /* Fin Mixin */
 .header {
   font-family: 'Roboto', sans-serif;
@@ -61,18 +61,18 @@
     width: 30px;
     height: 26px; }
 
+/* MAPA en contenedorimagenes, footer y videotexto */
 /* MAPA */
-/* MAPA */
-/* EXTEND */
+/* EXTEND en parcial _cajas y en _maincarrusel */
 .alineadocentro, .mainboton, .cajas_boton {
   text-align: center;
   justify-content: center; }
 
 /* Extend */
-/* Mixin */
+/* Mixin en header */
 /* Fin Mixin */
-/* Mixin */
-/* Para Margenes*/
+/* Mixin en parciales cajas */
+/* Para Margenes en parciales cajas*/
 /* Fin Mixin */
 /*cuerpo index*/
 .mainHero_titulo {
@@ -101,18 +101,18 @@
 
 /* MAPA */
 /* MAPA */
+/* MAPA en contenedorimagenes, footer y videotexto */
 /* MAPA */
-/* MAPA */
-/* EXTEND */
+/* EXTEND en parcial _cajas y en _maincarrusel */
 .alineadocentro, .mainboton, .cajas_boton {
   text-align: center;
   justify-content: center; }
 
 /* Extend */
-/* Mixin */
+/* Mixin en header */
 /* Fin Mixin */
-/* Mixin */
-/* Para Margenes*/
+/* Mixin en parciales cajas */
+/* Para Margenes en parciales cajas*/
 /* Fin Mixin */
 .videotexto_contenedor {
   flex-basis: 50%;
@@ -142,18 +142,18 @@
 
 /* MAPA */
 /* MAPA */
+/* MAPA en contenedorimagenes, footer y videotexto */
 /* MAPA */
-/* MAPA */
-/* EXTEND */
+/* EXTEND en parcial _cajas y en _maincarrusel */
 .alineadocentro, .mainboton, .cajas_boton {
   text-align: center;
   justify-content: center; }
 
 /* Extend */
-/* Mixin */
+/* Mixin en header */
 /* Fin Mixin */
-/* Mixin */
-/* Para Margenes*/
+/* Mixin en parciales cajas */
+/* Para Margenes en parciales cajas*/
 /* Fin Mixin */
 .contenedor_imagentabs {
   grid-area: imagen;
@@ -177,18 +177,18 @@
       -o-transform: rotate(-10deg) scale(1.2);
       -ms-transform: rotate(-10deg) scale(1.2); }
 
+/* MAPA en contenedorimagenes, footer y videotexto */
 /* MAPA */
-/* MAPA */
-/* EXTEND */
+/* EXTEND en parcial _cajas y en _maincarrusel */
 .alineadocentro, .mainboton, .cajas_boton {
   text-align: center;
   justify-content: center; }
 
 /* Extend */
-/* Mixin */
+/* Mixin en header */
 /* Fin Mixin */
-/* Mixin */
-/* Para Margenes*/
+/* Mixin en parciales cajas */
+/* Para Margenes en parciales cajas*/
 /* Fin Mixin */
 .cajas_texto1 {
   font-size: 20px;
@@ -263,18 +263,18 @@
 
 /* MAPA */
 /* MAPA */
+/* MAPA en contenedorimagenes, footer y videotexto */
 /* MAPA */
-/* MAPA */
-/* EXTEND */
+/* EXTEND en parcial _cajas y en _maincarrusel */
 .alineadocentro, .mainboton, .cajas_boton {
   text-align: center;
   justify-content: center; }
 
 /* Extend */
-/* Mixin */
+/* Mixin en header */
 /* Fin Mixin */
-/* Mixin */
-/* Para Margenes*/
+/* Mixin en parciales cajas */
+/* Para Margenes en parciales cajas*/
 /* Fin Mixin */
 .footer {
   border-top: 2px solid black;
