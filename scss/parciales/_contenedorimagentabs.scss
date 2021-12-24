@@ -1,7 +1,9 @@
+@import "./vars";
+@import "./utilitarias";
 .contenedor_imagentabs{
     grid-area: imagen;
-    align-items: center;
-    justify-content: center;
+    align-items: map-get($misestilos , centro );
+    justify-content: map-get($misestilos , centro );
     display: flex;
     &-tabsimagen{
     width: 500px;

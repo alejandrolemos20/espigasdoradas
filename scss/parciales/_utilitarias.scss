@@ -1,0 +1,42 @@
+/* MAPA */
+$misestilos: (
+    colorproductos:#d89e21,
+    centro:center,
+    fuente:20px
+);
+/* MAPA */
+
+/* EXTEND */
+
+.alineadocentro{
+    text-align: center;
+    justify-content: center;
+
+}
+/* Extend */
+
+/* Mixin */
+@mixin logos ($ancho,$alto){
+    width: $ancho;
+    height: $alto;
+}
+
+/* Fin Mixin */
+
+
+/* Mixin */
+@mixin tamano ($alto,$ancho){
+    height: $alto;
+    width: $ancho;
+    
+}
+/* Para Margenes*/
+@mixin margenes ($izquierda, $derecha, $arriba, $abajo){
+    left: $izquierda;
+    right: $derecha;
+    bottom: $arriba;
+    top: $abajo;
+    
+}
+/* Fin Mixin */
+

@@ -1,7 +1,8 @@
 @import "./vars";
+@import "./utilitarias";
 .footer{
     border-top: 2px solid $color-separadores;
-    text-align: center;
+    text-align: map-get($misestilos , centro );
     padding: 3px;
     background-color: bisque;
     color: black;

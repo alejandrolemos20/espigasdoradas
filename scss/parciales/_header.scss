@@ -1,12 +1,13 @@
 @import "./vars";
+@import "./utilitarias";
+
 .header{
     font-family: 'Roboto', sans-serif;
     grid-area: header;
 
     &logo {
         max-width: 100%;
-        width: 80px;
-        height: 80px;
+        @include logos(86px,86px);
     
     }
     &_list{

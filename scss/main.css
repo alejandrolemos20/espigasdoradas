@@ -1,6 +1,42 @@
 @charset "UTF-8";
+/* MAPA */
+/* MAPA */
+/* MAPA */
+/* MAPA */
+/* EXTEND */
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.alineadocentro, .mainboton, .cajas_boton {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* Extend */
+/* Mixin */
+/* Fin Mixin */
+/* Mixin */
+/* Para Margenes*/
+/* Fin Mixin */
+/* MAPA */
+/* MAPA */
+/* MAPA */
+/* MAPA */
+/* EXTEND */
+.alineadocentro, .mainboton, .cajas_boton {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* Extend */
+/* Mixin */
+/* Fin Mixin */
+/* Mixin */
+/* Para Margenes*/
+/* Fin Mixin */
 .header {
   font-family: 'Roboto', sans-serif;
   grid-area: header;
@@ -8,8 +44,8 @@
 
 .headerlogo {
   max-width: 100%;
-  width: 80px;
-  height: 80px;
+  width: 86px;
+  height: 86px;
 }
 
 .header_list {
@@ -45,6 +81,22 @@
   height: 26px;
 }
 
+/* MAPA */
+/* MAPA */
+/* EXTEND */
+.alineadocentro, .mainboton, .cajas_boton {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* Extend */
+/* Mixin */
+/* Fin Mixin */
+/* Mixin */
+/* Para Margenes*/
+/* Fin Mixin */
 /*cuerpo index*/
 .mainHero_titulo {
   font-size: 2rem;
@@ -55,10 +107,6 @@
   font-size: 100%;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   color: black;
   border-radius: 20px;
   background: burlywood;
@@ -79,6 +127,24 @@
   box-shadow: 0px 20px 36px -11px rgba(0, 0, 0, 0.3);
 }
 
+/* MAPA */
+/* MAPA */
+/* MAPA */
+/* MAPA */
+/* EXTEND */
+.alineadocentro, .mainboton, .cajas_boton {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* Extend */
+/* Mixin */
+/* Fin Mixin */
+/* Mixin */
+/* Para Margenes*/
+/* Fin Mixin */
 .videotexto_contenedor {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
@@ -102,6 +168,8 @@
   text-align: center;
 }
 
+/* MAPA */
+/* MAPA */
 .tabs {
   background-color: #E8E4B3;
   border-bottom: 2px solid black;
@@ -116,6 +184,24 @@
   font-family: 'Roboto', sans-serif;
 }
 
+/* MAPA */
+/* MAPA */
+/* MAPA */
+/* MAPA */
+/* EXTEND */
+.alineadocentro, .mainboton, .cajas_boton {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* Extend */
+/* Mixin */
+/* Fin Mixin */
+/* Mixin */
+/* Para Margenes*/
+/* Fin Mixin */
 .contenedor_imagentabs {
   grid-area: imagen;
   -webkit-box-align: center;
@@ -149,6 +235,22 @@
   -ms-transform: rotate(-10deg) scale(1.2);
 }
 
+/* MAPA */
+/* MAPA */
+/* EXTEND */
+.alineadocentro, .mainboton, .cajas_boton {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* Extend */
+/* Mixin */
+/* Fin Mixin */
+/* Mixin */
+/* Para Margenes*/
+/* Fin Mixin */
 .cajas_texto1 {
   font-size: 20px;
   line-height: 30px;
@@ -161,10 +263,6 @@
   font-size: 100%;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   color: black;
   border-radius: 20px;
   background: burlywood;
@@ -192,12 +290,14 @@
 
 .cajas .containerimagenes_overlay {
   position: absolute;
-  top: 0;
-  bottom: 0;
   left: 0;
   right: 0;
+  bottom: 0;
+  top: 0;
+  /* Para llamar a mi función de margenes*/
   height: 100%;
   width: 100%;
+  /* Para llamar a mi función de mixin*/
   opacity: 0;
   -webkit-transition: .5s ease;
   transition: .5s ease;
@@ -240,6 +340,24 @@
   background-color: whitesmoke;
 }
 
+/* MAPA */
+/* MAPA */
+/* MAPA */
+/* MAPA */
+/* EXTEND */
+.alineadocentro, .mainboton, .cajas_boton {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* Extend */
+/* Mixin */
+/* Fin Mixin */
+/* Mixin */
+/* Para Margenes*/
+/* Fin Mixin */
 .footer {
   border-top: 2px solid black;
   text-align: center;

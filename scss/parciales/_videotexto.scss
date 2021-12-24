@@ -1,9 +1,11 @@
 @import "./vars";
+@import "./utilitarias";
+
 .videotexto_contenedor{
     flex-basis: 50%;
     background-color: #F8F7E7;
-    justify-items: center;
-    align-items: center;
+    justify-items: map-get($misestilos , centro );
+    align-items: map-get($misestilos , centro );
     padding-right: 36px;
     border-top: 2px solid $color-separadores;
     border-bottom: 2px solid $color-separadores;

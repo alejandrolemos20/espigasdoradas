@@ -1,3 +1,4 @@
+@import "./utilitarias";
 /*cuerpo index*/
 .main{
     
@@ -10,8 +11,7 @@
         font-size: 100%;
         font-family:'Courier New', Courier, monospace;
         font-weight: bold;
-        text-align: center;
-        justify-content: center;
+        @extend .alineadocentro;
         color: black;
         border-radius: 20px;
         background: burlywood;
