@@ -1,6 +1,4 @@
 @charset "UTF-8";
-/* MAPA */
-/* MAPA */
 /* MAPA en contenedorimagenes, footer y videotexto */
 /* MAPA */
 /* EXTEND en parcial _cajas y en _maincarrusel */
@@ -19,8 +17,6 @@
 /* Mixin en parciales cajas */
 /* Para Margenes en parciales cajas*/
 /* Fin Mixin */
-/* MAPA */
-/* MAPA */
 /* MAPA en contenedorimagenes, footer y videotexto */
 /* MAPA */
 /* EXTEND en parcial _cajas y en _maincarrusel */
@@ -127,8 +123,6 @@
   box-shadow: 0px 20px 36px -11px rgba(0, 0, 0, 0.3);
 }
 
-/* MAPA */
-/* MAPA */
 /* MAPA en contenedorimagenes, footer y videotexto */
 /* MAPA */
 /* EXTEND en parcial _cajas y en _maincarrusel */
@@ -168,8 +162,6 @@
   text-align: center;
 }
 
-/* MAPA */
-/* MAPA */
 .tabs {
   background-color: #E8E4B3;
   border-bottom: 2px solid black;
@@ -184,8 +176,6 @@
   font-family: 'Roboto', sans-serif;
 }
 
-/* MAPA */
-/* MAPA */
 /* MAPA en contenedorimagenes, footer y videotexto */
 /* MAPA */
 /* EXTEND en parcial _cajas y en _maincarrusel */
@@ -340,8 +330,6 @@
   background-color: whitesmoke;
 }
 
-/* MAPA */
-/* MAPA */
 /* MAPA en contenedorimagenes, footer y videotexto */
 /* MAPA */
 /* EXTEND en parcial _cajas y en _maincarrusel */
@@ -362,7 +350,7 @@
   border-top: 2px solid black;
   text-align: center;
   padding: 3px;
-  background-color: bisque;
+  background-color: #ddd571;
   color: black;
   grid-area: footer;
 }
@@ -375,103 +363,4 @@
       -ms-flex-direction: row;
           flex-direction: row;
 }
-
-/*.Producto .clear {/* BR *
-    height: 304px;
-}*/
-/* .FormularioImagen{
-    padding: 118px 446px 160px 285px;
-    margin: -26px -419px -142px -228px;
-
-}*/
-/* 
-html, body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    font-size: 100%;
-    background: #E8E4B3;
-    }
-
-body{
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    height: 100vh;
-    grid-template-areas: "header" "main" "footer";
-}}
-
-main{
-    grid-area: main;
-}
-
-*/
-/* media queries responsive */
-/* Estilos Moviles*/
-/*
-@media only screen and (max-width: 767px) {
-    .footer .header .main{
-        flex-wrap: wrap;
-    }
-    .header{
-        justify-content: center;
-        display: grid;
-        grid-template-rows: 1fr;
-        grid-template-areas: "logo"
-                            "nav";
-    }
-    .headerlogo {
-        grid-area: logo;
-        justify-self: center;
-        margin-left: 66px;
-    
-    }
-    header ul{ /* para mover el menu *
-        display: flex;
-        flex-direction: row;
-        padding: 4px 10px 14px 87px;
-        grid-area: nav;
-        
-    }
-    header ul a{ /* links espaciado *
-        display: block;
-        padding: 20px 8px;
-        font-size: 2rem;
-        
-    }
-    header ul li{
-        margin: 0px 10px ;
-    }
-    .main{
-        font-size: 1.3rem;
-        background-color: khaki;
-        
-    }
-    .content{
-        height: 230vh;
-        padding: 186px;
-    }
-    .Producto{
-        font-size: 1.4rem;
-    }
-    
-}
-*/
-/*--Desktop--*/
-/*
-@media only screen and (min-width: 768px) {
-    
-    .header{
-        justify-content: space-between;
-        align-items: center;
-    }
-    .tabsimagen{    width: 600px;
-        height: 600px;
-        padding: 17px 17px 23px -21px;
-        margin: 67px 0px 0px -143px;}
-    
-    
-}
-
-*/
 /*# sourceMappingURL=main.css.map */
