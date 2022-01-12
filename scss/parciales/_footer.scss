@@ -4,7 +4,7 @@
     border-top: 2px solid $color-separadores;
     text-align: map-get($misestilos , centro );
     padding: 3px;
-    background-color: bisque;
+    background-color: #ddd571;
     color: black;
     grid-area: footer;
     &_list{
