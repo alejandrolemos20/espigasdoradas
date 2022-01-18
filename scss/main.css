@@ -124,7 +124,7 @@
 }
 
 .maincarrusel {
-  height: 480px;
+  height: 480px !important;
   width: 1440px;
 }
 
