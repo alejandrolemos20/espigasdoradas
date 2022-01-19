@@ -118,12 +118,10 @@
 }
 
 .mainboton:hover, .mainboton :active {
-  /* Para poner sombra*/
-  background: #dac721;
+  background: gold;
   -webkit-box-shadow: 0px 20px 36px -11px rgba(0, 0, 0, 0.3);
-  /* Para animación de incremento de tamaño*/
   box-shadow: 0px 20px 36px -11px rgba(0, 0, 0, 0.3);
-  -webkit-transform: scale(1.1, 1.1) !important;
+  -webkit-transform: scale(1.1, 1.1);
   transform: scale(1.1, 1.1);
 }
 
