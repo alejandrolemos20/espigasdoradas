@@ -128,6 +128,8 @@
 .maincarrusel {
   height: 480px !important;
   width: 1440px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /* MAPA en contenedorimagenes, footer y videotexto */
